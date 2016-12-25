@@ -39,7 +39,11 @@ class GATable(object):
             self.dims = add_suffix(dims, "ga:")
         return
 
-    def order_by(self, by):
+    def order_by(self, sort):
+        if self.sort not None:
+            self.sort += "," + add_suffix(sort, "ga:")
+        else:
+            self.sort = add_suffix(sort, "ga:")
         return
 
     def get_url(self, max_results):
