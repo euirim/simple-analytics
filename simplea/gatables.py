@@ -6,7 +6,7 @@ from oauth2client.service_account import ServiceAccountCredentials as SAC
 from httplib2 import Http  
 from apiclient.discovery import build
 
-from utils import add_suffix
+from simplea.utils import add_suffix
 
 class GATable(object):
     

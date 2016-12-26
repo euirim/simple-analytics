@@ -4,7 +4,7 @@ from os import path
 
 setup(
     name='simple-analytics',
-    version='0.1.dev1',
+    version='0.1.0.dev1',
 
     description=("A simple python interface for Google's Analytics Reports API" + 
             "(v3)."),
