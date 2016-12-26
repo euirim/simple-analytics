@@ -10,4 +10,4 @@ def add_suffix(txt, suffix):
     elements = ["-" + suffix + e[1:] if e[0] == "-" 
             else suffix + e for e in elements]
     
-    return "".join(elements)
+    return ",".join(elements)
