@@ -6,6 +6,8 @@ Using Google Analytics Reports API (v3) to read analytics data can be hard to se
 
 ### Usage Example
 ```python
+>>> from simplea.gatables import GATable
+
 >>> gat = GATable(table_id="xxx", start_date="2016-10-3",
         end_date="2016-10-11", metrics="sessions")
 
